@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&family=Montserrat:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body bgcolor="black">
+    <header data-aos="fade-down">
+        <div class="header">
+            <div class="header__wrapper">
+                <div class="header__top">
+                    <div class="hero__logo">
+                        <a href="./index.html">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP3y2YuTNlHFCJ00nuputMwtPN_lVoh0ge_Q&s"
+                                width="100px" alt="Portfolio logo">
+                        </a>
+                    </div>
+
+                    <nav class="nav">
+                        <a href="./index.html" class="link">Men haqimda</a>
+                        <a href="./meningloyihalarim.html" class="link">Mening loyihalarim</a>
+                        <a href="./meningsinfim.html" class="link">Mening do'stlarim</a>
+                        <a href="./meningoilam.html" class="link">Mening oilam</a>
+                    </nav>
+                </div>
+
+                <div class="header__elements">
+                    <div class="header__img" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img src="./assets/men.JPG" alt="" width="200px">
+                    </div>
+                    <div class="header__text">
+                        <h1 class="main-title">Salom , <br> Men Akbarjon</h1>
+                        <p>PDP SCHOOL maktabining 7-"a" sinfda o'qiyapman. <br>
+                            Men hozirda frontend yo'nalishida o'qiyapman.</p>
+
+                        <!-- <div class="btn_border"> -->
+                        <a href="./meningloyihalarim.html">
+                            <button class="header__btn">Loyihalarim</button>
+                        </a>
+                        <!-- </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="skills" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="container">
+            <h2 class="project-title">Ko'nikmalar</h2>
+            <div class="skills-grid">
+                <div class="skill" data-aos="fade-up" data-aos-delay="0">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Asosiy veb-struktura yaratish.</p>
+                </div>
+                <div class="skill" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Stil va animatsiyalar.</p>
+                </div>
+                <div class="skill" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interaktivlik va localStorage.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="interests" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="container">
+            <h2 class="project-title">Qiziqishlarim</h2>
+            <div class="interests-grid">
+                <div class="interest" data-aos="flip-left" data-aos-delay="0">
+                    <i class="fas fa-code"></i>
+                    <h3>Dasturlash</h3>
+                    <p>Yangi texnologiyalar va kod yozishni yaxshi ko'raman.</p>
+                </div>
+                <div class="interest" data-aos="flip-left" data-aos-delay="100">
+                    <i class="fas fa-futbol"></i>
+                    <h3>Futbol</h3>
+                    <p>Do'stlarim bilan futbol o'ynashni yaxshi ko'raman.</p>
+                </div>
+                <div class="interest" data-aos="flip-left" data-aos-delay="200">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>O'yinlar</h3>
+                    <p>Kompyuter o'yinlari va strategik o'yinlar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="container contact-grid">
+            <div class="contact-info card" data-aos="fade-right" data-aos-duration="800">
+                <h2 class="project-title">Aloqa</h2>
+                <p>Telefon: <a href="tel:+998901234567">+998 50 072</a></p>
+                <p>Email: <a href="mailto:akbarjon20122411@gmail.com">akbarjon20122411@gmail.com</a></p>
+                <p>Joylashuv: Toshkent, O'zbekiston</p>
+                <div class="social-contact">
+                    <a href="https://t.me/akbarjonlolayev20122411"><i class="fab fa-telegram"></i> Telegram</a>
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+                </div>
+            </div>
+
+
+            <div class="contact-form card" data-aos="fade-left" data-aos-duration="800">
+                <form id="contactForm" method="post" class="form">
+                    <input type="text" id="name" class="name" placeholder="Ismingiz" required>
+                    <input type="email" id="email" class="email" placeholder="Email" required>
+                    <textarea class="textarea" id="message" placeholder="Xabar" required></textarea>
+                    <button type="submit" class="send">Yuborish</button>
+                </form>
+                <div id="visitorCount">Ziyoratchilar soni: <span id="count">0</span></div>
+            </div>
+        </div>
+    </section>
+
+    <footer data-aos="fade-up">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://t.me/akbarjonlolayev20122411" class="social-link" target="_blank"><i
+                        class="fab fa-telegram"></i></a>
+                <a href="#" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2026 Akbarjon. Barcha huquqlar himoyalangan.</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+
+</html>
