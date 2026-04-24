@@ -445,10 +445,11 @@ a:hover,
 }
 
 .skill i {
+
     font-size: 48px;
     color: #0066cc;
     margin-bottom: 15px;
-    transition: transform 0.3s ease, color 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .skill:hover i {
