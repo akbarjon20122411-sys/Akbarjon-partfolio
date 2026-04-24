@@ -116,7 +116,11 @@ body::before {
     color: #ffffff;
     font-size: 14px;
     letter-spacing: 1px;
+    text-align: center;
+    padding: 5px;
 }
+
+
 
 .container__title {
     text-align: center;
@@ -181,9 +185,14 @@ body::before {
     text-decoration: none;
     color: #0066cc;
     font-weight: 500;
-    transition: color 0.3s;
+    transition:  0.3s linear;
 }
 
-.item__top-link:hover {
+.item__top-link i{
+    transition: 0.1s linear;
+}
+
+.item__top-link i:hover { 
+    transform: rotate(-90deg);
     color: #004499;
 }

@@ -329,6 +329,15 @@ body {
     overflow: hidden;
 }
 
+.otam__txt{
+    justify-self:center
+     ;
+}
+
+.ukam__txt{
+    justify-self:center;
+}
+
 .project::before {
     content: '';
     position: absolute;
